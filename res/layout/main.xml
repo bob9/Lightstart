@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Light Start"
+                android:textAppearance="?android:attr/textAppearanceLarge" android:layout_gravity="center_vertical|center_horizontal" android:gravity="center_vertical|center_horizontal"/>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout09"
+                android:layout_width="match_parent"
+                android:layout_height="30dip" android:gravity="center_vertical" android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/TextView09"
+                    android:layout_width="150dip"
+                    android:layout_height="wrap_content"
+                    android:text="Temperature" android:textColor="#FFFFFF" android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/textViewTemperature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:textStyle="bold" android:textColor="#FFFFFF"/>
+            </LinearLayout>
+            
+            <LinearLayout
+        android:id="@+id/LinearLayout04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:visibility="gone">
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:text="Red" />
+
+        <Button
+            android:id="@+id/Button01Off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Off" />
+
+        <Button
+            android:id="@+id/Button01On"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="On"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:visibility="gone">
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:text="Blue" />
+
+        <Button
+            android:id="@+id/Button02Off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Off" />
+
+        <Button
+            android:id="@+id/Button02On"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="On"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:visibility="gone">
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:text="Green" />
+
+        <Button
+            android:id="@+id/Button03Off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Off" />
+
+        <Button
+            android:id="@+id/Button03On"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="On"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="60dip" android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:text="Bedroom Light" android:textColor="#FFFFFF" android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/Button04Off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Off" />
+
+        <Button
+            android:id="@+id/Button04On"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="On" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:visibility="gone">
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:text="Pin 5" />
+
+        <Button
+            android:id="@+id/Button05Off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Off" />
+
+        <Button
+            android:id="@+id/Button05On"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="On" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout06"
+        android:layout_width="match_parent"
+        android:layout_height="60dip" android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:text="Above Fish Tank" android:textStyle="bold" android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/Button06Off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Off" />
+
+        <Button
+            android:id="@+id/Button06On"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="On" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout07"
+        android:layout_width="match_parent"
+        android:layout_height="60dip" android:layout_gravity="center_vertical" android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:text="Front Door Light" android:textColor="#FFFFFF" android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/Button07Off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Off" />
+
+        <Button
+            android:id="@+id/Button07On"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="On" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout08"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:visibility="gone">
+
+        <TextView
+            android:id="@+id/TextView08"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:text="Pin 49" />
+
+        <Button
+            android:id="@+id/Button09Off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Off" />
+
+        <Button
+            android:id="@+id/Button09On"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="On" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonRefresh"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Refresh"
+        android:textSize="14pt" />
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
